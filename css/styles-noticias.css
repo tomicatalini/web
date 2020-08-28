@@ -1,0 +1,76 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*linear-gradient(to bottom,transparent,transparent,#222); linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.7) 100%);*/
+body{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.contenido{
+    padding: 0 24px;
+}
+
+/* NOTICIAS IMPORTANTES */
+
+.articulo-importantes{
+    width: 100%;
+    padding: 0 14px;
+}
+
+.seccion-grande__wrap {
+    position: relative;
+    width: 49%;
+    height: calc(35vh - 5px);
+    float: left;
+    margin:5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+
+.seccion--grande{
+    height: 70vh;
+}
+
+.seccion-grande__enlace {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.7) 100%);
+}
+/*font-family: 'Roboto', sans-serif;*/
+.seccion-grande__info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;    
+    font-weight: bolder;
+    color:#fff;    
+}
+
+.seccion-grande__titulo {
+}
+
+.seccion-grande__fecha {
+    font-size: 12px;
+    font-weight: 10;
+    margin-top: 10px;
+}
+
+.seccion-grande__wrap:first-child {
+    background-image: url(https://media.lacapital.com.ar/adjuntos/205/imagenes/028/434/0028434992.jpg);
+}
+
+.seccion-grande__wrap:nth-child(2) {
+    background-image: url(https://tripin.travel/wp-content/uploads/2016/07/CdelUruguay04-turismo.jpg);
+}
+
+.seccion-grande__wrap:last-child {
+    background-image: url(https://www.turismoentrerios.com/cdeluruguay/img/isla-del-puerto.jpg);
+}
+/* NOTICIAS IMPORTANTES */

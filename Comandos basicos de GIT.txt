@@ -1,0 +1,40 @@
+Comandos basicos de GIT
+
+trabaja directamente con el SO
+bash de Git
+
+states:
+
+Working directory: where I'm going to be working on
+staging area: where I'm going to be putting in the files waiting for saving them, multiple changed's
+repository: when you are ready to save the changes
+
+Commands:
+
+git init: start a new proyect.
+git add <file>: Get a proyect from staging area to working directory. Basically, load a proyect from the staging area.
+git add . : agrega todos los archivos.
+git status: tell the states of a proyect or files, if there are at working directory, staging area or repository
+git commit: Put the files from the staging area to the local repository. Creat a "Snapshot" of the code.
+git commit -m "mensaje descriptivo del commit".
+git log: give the id of a Snapshot.
+git push: Put the files to a romete repository.
+git pull: Get the changes of the files from the remote repository, if you are working in group, and someone work at the files.
+git clone: Creat a copy of the files or proyect from remote repository to your computer.
+git checkout -- <file>: revertir un cambio
+git diff <file>: muestra las diferencias entre la antigua version y la nueva.
+git branch: devulve las rama.
+git branch <nombre de una nueva rama>
+git checkout <nombre de la rama donde se quiere trabajar>
+
+archivo .gitignore: archivos que git va a ignorar a la hora de cargarlos a un repositorio. Donde se ponen los nombre de los archivos o carpetas que se quieran ignorar.
+se tiene que hacer el git add .gitignore
+
+Comandos de linux
+ls
+pwd: para ver en que ruta o lugar nos encontramos
+
+GITHUB
+git remote add origin <ruta repositorio GitHub>
+
+

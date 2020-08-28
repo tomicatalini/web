@@ -1,0 +1,160 @@
+/*¿Que onda esto?*/
+title {
+    display: none;
+}
+
+script {
+    display: none;
+}
+/*¿Que onda esto?*/
+
+
+* {      
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    display:block;
+}
+
+body{
+    background: #ccc;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.wrapper{
+    width: 1164px;
+    margin:auto;
+    background:#fff;
+}
+
+/*      TOP-CABECERA    */
+.cabecera{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 50px;
+    overflow: auto;
+    box-shadow: 0 3px 10px -1px #ccc;
+}
+.cabecera__top-wrap{
+    background:#6d6d6d;    
+    width: 100%;
+    min-width: 585px;   
+    overflow: auto;
+    padding: 0 50px;
+}
+.cabecera__top-left{
+    width: fit-content;
+    float: left;
+}
+.cabecera__top-menu-wrap{
+    display: inline-block;
+    width: fit-content;
+}
+
+.cabecera__redes{
+    width: fit-content;
+    float: right;
+}
+
+.cabecera__fecha{
+    display: inline-block;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.cabecera__top-menu-item{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.cabecera__top-menu-enlace{
+    text-decoration: none;
+    color: #fff;
+}
+
+.cabecera__red-enlace{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.cabecera__red{
+    color: #fff;
+}
+
+.cabecera__red:hover{
+    color: #fb0;
+}
+/*      TOP-CABECERA    */
+
+/*      RESTO-CABECERA    */
+.cabecera__icono-menu, .cabecera__cierre-menu {
+    display: none;
+}
+
+.cabecera__logo-wrap{
+    padding: 30px 0;
+}
+.cabecera__logo-enlace{
+
+}
+.cabecera__logo{
+    width: fit-content;
+    margin: auto;
+}
+
+.cabecera__nav-ppal-wrap{
+    font-size: 16px;
+    line-height: 56px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Open Sans', arial, sans-serif;
+    width: fit-content;
+    margin:0 auto;
+}
+
+.cabecera__nav-ppal{
+
+}
+
+.cabecera__nav-ppal-menu{
+
+}
+
+.cabecera__nav-ppal-item{
+    display: inline-block;    
+    color: #4c4c4c;
+}
+
+.cabecera__nav-ppal-item:hover {    
+    border-bottom: 2px solid #4c4c4c;
+}
+
+.cabecera__nav-ppal-enlace{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #4c4c4c;    
+    padding: 0 10px;
+}
+
+.cabecera__nav-ppal-enlace:hover {
+    
+}
+
+.cabecera__icono-busqueda {
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.cabecera__enlace-busqueda{
+    text-decoration: none;
+    color: #4c4c4c;
+    padding: 10px 0;
+    margin: 0 50px 0 0;
+}

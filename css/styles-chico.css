@@ -1,0 +1,563 @@
+* {
+    font-family: sans-serif;
+    font-weight: 10;    
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    display:block;
+}
+/*¿Que onda esto?*/
+title {
+    display: none;
+}
+
+script {
+    display: none;
+}
+/**/
+
+/*     Header     */
+
+.cabecera {
+    display: none;
+    width: 100%;
+    height: 54px;
+    background-color: #fff;
+    box-shadow: 0 1px 10px -1px #ccc;
+    /*position: sticky;
+    top:0;
+    left:0;
+    z-index:10;*/
+}
+
+.cabecera__top{
+
+}
+
+.cabecera__fecha{
+
+}
+
+.cabecera__top-menu-wrap{
+
+
+}
+
+.cabecera__redes{
+
+}
+
+.cabecera__red-enlace{
+    float:left;
+    padding: 10px;
+    margin: 2px;
+}
+
+.cabecera__red{
+    margin: 10px 20px;
+    width: fit-content;
+}
+
+.cabecera__logo-wrap{
+    width: 180px;
+    height: 54px;
+    margin:auto;
+    padding: 5px 0;
+}
+
+.cabecera__logo {
+    width: 180px;
+    height: 43.8px;
+}
+
+.cabecera__icono-menu {
+    width: 64px;
+    height: 54px;
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 20px;
+}
+.cabecera__icono-menu i {    
+    color: #c31818;
+}
+
+.cabecera__icono-busqueda {
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    top:0;
+    right:0;
+    padding: 20px;
+    color: #c31818;
+}
+
+.cabecera__cierre-menu{  
+    width: fit-content;
+    position: absolute;
+    top:0;
+    right:0;
+    margin: 5px 0;
+}
+
+.cabecera__cerrar{    
+    padding: 10px 20px 10px 10px;
+    color: #fff;
+}
+
+/* MENU */
+.cabecera__cabecera__nav-ppal-wrap{
+    display: none;
+    /*width: 100vw;
+    height: 100vh;*/
+    /*background: linear-gradient(rgba(50,50,50,0.99),/*#007cba*//*rgba(0,124,186,0.97),rgba(77,178,236,0.97));/*#4db2ec*/
+    /*position:relative;
+    top:-55px;
+    left:0;
+    z-index:1;
+    overflow: auto;*/
+}
+
+.cabecera__cabecera__nav-ppal{
+    margin: 25px 20px 0;
+}
+
+.cabereca__nav-ppal-item{
+    line-height: 21px;
+    font-size: 21px;
+    color: #fff;
+    margin-left: 0;
+    padding: 12px 30px 12px 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/**/
+
+.contenedor{
+    padding: 5px 0;
+}
+
+.articulo{
+    padding: 30px 25px 30px 20px;
+}
+
+/* NOTICIAS IMPORTANTES */
+.articulo-importantes{
+    width: 100%;
+}
+
+.seccion-grande__wrap {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.seccion--grande{    
+    width: 100%;
+    height: 85vh;
+}
+
+.seccion-grande__enlace {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    background: linear-gradient(to bottom,transparent,transparent,#222);
+}
+
+.seccion-grande__info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    color:#fff;    
+}
+
+.seccion-grande__titulo {
+    font-weight: bold;
+}
+
+.seccion-grande__fecha {
+    font-size: 12px;
+    font-weight: 10;
+    margin-top: 10px;
+}
+
+.seccion--grande:first-child {
+    background-image: url(https://media.lacapital.com.ar/adjuntos/205/imagenes/028/434/0028434992.jpg);
+}
+
+.seccion--grande:nth-child(2) {
+    background-image: url(https://tripin.travel/wp-content/uploads/2016/07/CdelUruguay04-turismo.jpg);
+}
+
+.seccion--grande:last-child {
+    background-image: url(https://www.turismoentrerios.com/cdeluruguay/img/isla-del-puerto.jpg);
+}
+/* NOTICIAS IMPORTANTES */
+
+/*  ULTIMAS NOTICIAS  */
+.articulo__cabecera {
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+}
+
+.articulo__titulo {  
+    display: inline-block;
+    padding: 1px 10px;
+    color:#fff;
+    font-family: Asap;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.cabecera--ultimas-wrap{
+    border-color: #dd3333;
+}
+.cabecera--ultimas-titulo{
+    background: #dd3333;
+}
+
+.seccion-chica__wrap {    
+    width: 100%;
+    height: 70px;
+    margin: 10px 0 25px 0;
+}
+
+.seccion-chica__thumbnail{    
+    display: inline-block;
+}
+
+.seccion-chica__imagen {
+    width: 100px;
+    height: 70px;
+}
+
+.seccion-chica__info{
+    width: calc(100% - 100px);
+    float: right;
+    padding: 0 15px;
+}
+
+.seccion-chica__enlace {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+}
+
+.seccion-chica__titulo {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.seccion-chica__fecha {
+    font-size: 11px;
+    color: #aaa;
+    padding: 10px 0;
+}
+
+/*Articulos-medianos*/
+.cabecera--locales-wrap {
+    border-color:#1e73be;
+}
+.cabecera--locales-titulo {
+    background:#1e73be;    
+}
+
+.seccion-med__wrap {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.seccion-med__thumbnail{
+}
+
+.seccion-med__imagen{
+    width: 100%;
+    height: 50vh;
+}
+
+.seccion-med__info {
+}
+
+.seccion-med__enlace {
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #000;
+}
+
+.seccion-med__titulo {
+    font-size: 22px;
+}
+
+.seccion-med__fecha {
+    font-size: 11px;
+    color: #aaa;
+}
+/*Articulos-medianos*/
+
+.cabecera--policiales-wrap {
+    border-color:#0021ff;
+}
+.cabecera--policiales-titulo {
+    background:#0021ff;    
+}
+
+/*Articulo Completo*/
+.seccion-completa__wrap {
+    width: 100%;
+    margin: 10px 0 20px;
+}
+
+.seccion-completa__figure {
+}
+
+.seccion-completa__imagen {
+    width: 100%;
+    height: 70vh;
+}
+
+.seccion-completa__info {
+    margin: 10px 0;
+}
+
+.seccion-completa__enlace {
+    color: #000;
+    text-decoration: none;
+    margin: 5px 0;
+    display:inline-block;
+}
+
+.seccion-completa__titulo {
+    font-size: 22px;
+}
+
+.seccion-completa__fecha {
+    font-size: 11px;
+    color: #aaa;
+}
+
+.seccion-completa__parrafo{
+    margin: 10px 0;
+    color: #888;
+    font-size: 14px;
+}
+/*Articulo Completo*/
+
+
+.seccion-grande--med{
+    width:100%;
+    height: 50vh;
+    margin-bottom: 2px;
+    clear: both;
+}
+
+.seccion-grande--chica{
+    width: calc(50% - 2px);
+    height: 20vh;
+    margin: 0 1px 2px;
+    float: left;
+}
+
+.aio--primero {
+    background-image: url(https://scontent.faep14-2.fna.fbcdn.net/v/t1.0-9/101019661_4506468412704011_4079171474575851520_o.jpg?_nc_cat=109&_nc_sid=6e5ad9&_nc_ohc=oBk9Zty43toAX-MVHX9&_nc_ht=scontent.faep14-2.fna&oh=fd3233b27ef25a23ff4cffe2e3d26560&oe=5F695305);
+}
+.aio--segundo {
+    background-image: url(https://lh3.googleusercontent.com/proxy/l-EQpB6t1e0d50pVldiCLa2j9wHkiNcpTeI_U3JVgUwR-X98KuUf7TPVK5-jI4ElVuoydLH-pGMkP3UA8mKUsoEK39SBW7_iOyRvwyKTJhDx-QKSTz7e);
+}
+.aio--tercero {
+    background-image: url(https://2.bp.blogspot.com/-XV5Qw0Rhtnk/TtTk3wzqbUI/AAAAAAAAAAM/ZD9NOnHApAY/s1600/atletico%252520uruguay.bmp);
+}
+.aio--cuarto {
+    background-image: url(https://scontent.faep14-2.fna.fbcdn.net/v/t1.0-9/11885137_686066681528436_4483725207406287775_n.jpg?_nc_cat=111&_nc_sid=7aed08&_nc_ohc=s7gLTRqC0zAAX9j5wXk&_nc_ht=scontent.faep14-2.fna&oh=e6490e5e25aa8b2e2d2068dfabe44626&oe=5F6884AC);
+}
+.aio--quinto {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRnpCBUpcWm_8DXPexSd24EO9_0E3fMLA-eKg&usqp=CAU);
+}
+
+.pie{
+    background: rgba(2, 2, 2, .76);
+}
+.pie__wrap-imagen{
+    width: 100%;
+    padding: 10px;
+}
+.pie__enlace {
+    width: 45%;
+    margin: 20px auto;
+}
+.pie__imagen{
+    width: 100%;
+}
+
+.pie-texto__titulo {
+    width: fit-content;
+    margin: 20px auto;
+    color: #006ba1;
+    font-family: Asap;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.pie-texto__parrafo {
+    color:#fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.pie-texto__contacto{
+    color: #fff;
+    font-family: Verdana, Geneva, sans-serif;    /*'Open Sans', arial, sans-serif*/
+    font-weight: 10;
+    font-size: 14px;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.pie-texto__enlace-contacto{
+    display: inline-block;
+    color: #555;
+    text-decoration: none;
+}
+
+.redes {
+    padding: 10px;
+}
+
+.redes__titulo {
+    font-family: Asap;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    color: #006ba1;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.redes__enlaces {
+    overflow: auto;
+    width: fit-content;
+    margin: auto;
+
+}
+.redes__enlace-red{
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.03);
+    text-align: center;    
+    float: left;
+    margin: 8px;
+    padding: 10px 6px 10px; 
+}
+
+.redes__icono{    
+    display: inline-block;
+    color: #fff;
+}
+
+.nav-pie{
+    background: #0d0d0d;
+    overflow: auto;
+    padding: 10px;
+}
+
+.nav-pie__lista{
+    width: fit-content;
+    margin: auto;
+}
+
+.nav-pie__opcion{
+    float:left;
+}
+
+.nav-pie__enlace {
+    text-decoration: none;
+    color:#fff;
+    margin: 10px;
+    text-transform: uppercase;
+    /*font-size: 12px;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-weight: 100;*/
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 21px;
+}
+
+/*Publicidad*/
+.publicidad{
+    width: 94%;
+    margin: 5px auto;
+}
+
+.publicidad__imagen {
+    width: 100%;    
+    height: 70px;
+    outline: 1px solid blue;
+}
+
+.publicidad--grande {
+    height: 30vw;
+    width: 80%;
+    margin: -30px auto;
+}
+
+.publicidad-lateral {
+    width: 100%;
+}
+.publicidad-lateral__img{
+    width: 50%;
+    height: 40vh;
+    margin: 10px auto;
+}
+/*Publicidad*/
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.cabecera--deportes-wrap {
+    border-color: #00aa16;
+}
+.cabecera--deportes-titulo {
+    background: #00aa16;    
+}
+
+.cabecera--redes-wrap {
+    border-color: #dbd000;
+}
+.cabecera--redes-titulo {
+    background: #dbd000;    
+}
+.cabecera--espectaculos-wrap {
+    border-color: #ff003b;
+}
+.cabecera--espectaculos-titulo {
+    background: #ff003b;    
+}
+.cabecera--pais-wrap {
+    border-color: #ce7f00;
+}
+.cabecera--pais-titulo {
+    background: #ce7f00;    
+}
+.cabecera--opinion-wrap {
+    border-color: #008796;
+}
+.cabecera--opinion-titulo {
+    background: #008796;    
+}
+
+.articulo-redes {
+    display: none;
+}
